@@ -16,7 +16,7 @@ const projectRoutes = require('./routes/project');
 
 
 // Database connection
-mongoose.connect(`mongodb://127.0.0.1:27017/portfolio`)
+mongoose.connect(`mongodb+srv://abdullah:abdullah@portfolio.3ylnd.mongodb.net/PortfolioDatabase?retryWrites=true&w=majority`)
     .then(() => {
         console.log('Database is connected');
     })
